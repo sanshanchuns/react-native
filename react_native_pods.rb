@@ -5,7 +5,7 @@
 
 def use_react_native! (options={})
   # The prefix to the react-native
-  prefix = options[:path] ||= "./src/0.63.3/react-native"
+  prefix = options[:path] ||= "./Pods/react-native"
 
   # Include Fabric dependencies
   fabric_enabled = options[:fabric_enabled] ||= false
